@@ -271,7 +271,7 @@ sup {
 
 a {
   color: #e6a756;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #b88645;
@@ -3738,7 +3738,7 @@ fieldset:disabled .btn {
 .btn-link {
   font-weight: 400;
   color: #e6a756;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .btn-link:hover {
   color: #b88645;
