@@ -670,8 +670,8 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  padding-right: var(--bs-gutter-x, 0.75rem);
-  padding-left: var(--bs-gutter-x, 0.75rem);
+  padding-right: var(--bs-gutter-x);
+  padding-left: var(--bs-gutter-x);
   margin-right: auto;
   margin-left: auto;
 }
@@ -4331,10 +4331,8 @@ fieldset:disabled .btn {
   justify-content: space-between;
 }
 .navbar-brand {
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
   margin-right: 1rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   text-decoration: none;
   white-space: nowrap;
 }
@@ -10155,8 +10153,8 @@ fieldset:disabled .btn {
   }
 
   .px-lg-4 {
-    padding-right: 1.5rem !important;
-    padding-left: 1.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
   }
 
   .px-lg-5 {
@@ -11739,9 +11737,7 @@ p {
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
 }
-#mainNav .navbar-brand {
-  color: #e6a756;
-}
+
 #mainNav .navbar-nav .nav-item .nav-link {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
