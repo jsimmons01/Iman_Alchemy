@@ -3115,9 +3115,21 @@ textarea.form-control.is-invalid {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .btn {
     transition: none;
+  }
+}
+@media (max-width: 767.98px) {
+  .footer-row {
+    font-size: 2em;
+  }
+  .footer-heading {
+    font-size: 1em;
+  }
+  .btn-link {
+    font-size: 1em;
   }
 }
 .btn:hover {
@@ -3895,6 +3907,7 @@ fieldset:disabled .btn {
     left: auto;
   }
 }
+
 @media (min-width: 992px) {
   .dropdown-menu-lg-start {
     --bs-position: start;
