@@ -11747,7 +11747,7 @@ p {
 }
 
 #mainNav {
-  background-color: rgba(230, 167, 86, 0.9);
+  background-color: rgba(230, 167, 86, 0.7);
   font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
@@ -11789,14 +11789,12 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  background-color: rgba(230, 167, 86, 0.9);
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  background-color: rgba(230, 167, 86, 0.7);
 }
 .cta .cta-inner {
   position: relative;
-  padding: 3rem;
-  margin: 0.5rem;
 }
 .cta .cta-inner:before {
   border-radius: 0.5rem;
@@ -11810,8 +11808,10 @@ p {
   z-index: -1;
 }
 
-.footer {
+.site-footer {
   background-color: rgba(47, 23, 15, 0.9);
+  margin-top: 40px;
+  padding-top: 15px;
 }
 
 .intro {
@@ -11882,4 +11882,8 @@ p {
 
 .address strong {
   font-size: 1.2rem;
+}
+.about-section {
+  background-color: rgba(47, 23, 15, 0.9);
+  padding: 40px;
 }
