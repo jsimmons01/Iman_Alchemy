@@ -11887,7 +11887,8 @@ p {
   font-size: 1.2rem;
 }
 .releases-section,
-.work-with-me-section {
+.work-with-me-section,
+.residency-section {
   background-color: rgba(47, 23, 15, 0.9);
   padding: 40px;
   color: var(--bs-primary);
