@@ -11917,3 +11917,10 @@ p {
 .bio-link {
   color: var(--bs-gray);
 }
+#mainCarousel {
+  position: relative;
+  background-position: center;
+  height: 32rem;
+  background-size: cover;
+  background-image: url("../assets/img/tea.jpg");
+}
