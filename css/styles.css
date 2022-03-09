@@ -11914,3 +11914,6 @@ p {
   margin-right: 5px;
   vertical-align: middle;
 }
+.bio-link {
+  color: var(--bs-gray);
+}
