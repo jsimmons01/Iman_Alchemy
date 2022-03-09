@@ -6538,7 +6538,7 @@ fieldset:disabled .btn {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
   color: #fff;
-  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .carousel-dark .carousel-control-prev-icon,
@@ -11898,4 +11898,19 @@ p {
   color: rgba(255, 255, 255, 0.7);
   font-weight: 800;
   background-color: rgba(47, 23, 15, 0.7);
+}
+
+.about-ul {
+  list-style-type: none;
+}
+.about-ul li:before {
+  content: "";
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: 16px;
+  background-image: url("../assets/img/logo-sm.png");
+  background-repeat: no-repeat;
+  margin-right: 5px;
+  vertical-align: middle;
 }
