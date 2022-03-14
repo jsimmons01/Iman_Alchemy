@@ -63,7 +63,7 @@
                 >
               </li>
               <li class="nav-item px-lg-4 mt-2">
-                <a class="nav-link text-uppercase" href="topline.html"
+                <a class="nav-link text-uppercase" href="toplines.html"
                   >Toplines</a
                 >
               </li>
@@ -80,26 +80,61 @@
         </div>
       </div>
     </nav>
-    <audio
-      id="player"
-      src="assets/media/Donnie Ozone - The Session 2021 (Prod by Lav).mp3"
-    ></audio>
-    <div class="player">
-      <div class="control">
-        <i class="fas fa-play" id="playbtn"></i>
-      </div>
-      <div class="info">
-        TheFatRat - Electrified
-        <div class="bar">
-          <div id="progress"></div>
+
+    <!-- Toplines -->
+    <section class="page-section">
+      <div class="container bg-faded rounded p-5 mx-auto" id="toplines">
+        <div class="row">
+          <p>
+            As a topline songwriter, I specialize in writing co-writing hooks +
+            choruses for HipHop/R&B, but can accommodate a wide-array of styles
+            anywhere from pop to dance/electronica. Check out a few examples of
+            my work:
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-4">The Session</div>
+          <div class="col-4"><i class="fa fa-play" id="playBtn"></i></div>
+          <audio
+            id="mySong"
+            src="assets/media/Donnie Ozone - The Session 2021 (Prod by Lav).mp3"
+            type="audio/mp3"
+          ></audio>
+        </div>
+        <div class="row">
+          <div class="col-4">Don't Make Assumptions</div>
+          <div class="col-4"><i class="fa fa-play" id="playBtn"></i></div>
+          <audio
+            id="mySong"
+            src="assets/media/Makaih Beats - Don't Make Assumptions.mp3"
+            type="audio/mp3"
+          ></audio>
+        </div>
+        <div class="row">
+          <div class="col-4">Nothing Was the Same</div>
+          <div class="col-4"><i class="fa fa-play" id="playBtn"></i></div>
+          <audio
+            id="mySong"
+            src="assets/media/Makaih Beats - NothingWasTheSame (makaih.com) copy.mp3"
+            type="audio/mp3"
+          ></audio>
+        </div>
+
+        <div class="row"></div>
+        <div class="row">
+          <p class="mt-2">
+            For rates, turnaround time, metadata and/or other questions about
+            potentially working together, be sure to fill out an inquiry form
+            <a href="index.html#work-with-me" class="work-with-me-link"
+              >here.</a
+            >
+          </p>
         </div>
       </div>
-
-      <div id="current">0:00</div>
-    </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="site-footer">
+    <footer class="site-footer" id="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-4 text-center">
@@ -160,13 +195,11 @@
         </div>
       </div>
     </footer>
-
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <!-- Music Player -->
     <script src="js/player.js"></script>
   </body>
 </html>
