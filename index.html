@@ -314,6 +314,11 @@
             </h2>
           </div>
           <form action="https://formsubmit.co/9bbf90d2e35595049ff74362ec151574" method="POST">
+            <!-- Honeypot -->
+            <input type="text" name="_honey" style="display: none;">
+            <!-- Disable Captcha -->
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="-next" value="https://jsimmons01.github.io/Iman_Alchemy/success.html">
             <div class="row">            
               <div class="col-md-6 my-3">
                 <label for="firstName" class="form-label">First Name</label>
@@ -321,28 +326,28 @@
               </div>
               <div class="col-md-6 my-3">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" name="Last Name" id="lastNames" placeholder="Last name">
+                <input type="text" class="form-control" name="Last&nbsp;Name" id="lastNames" placeholder="Last name">
               </div>
             </div>
             <div class="row">
               <div class="col-12 my-3">
                 <select class="form-select" name="Purpose" aria-label="Default select example" required>
                   <option selected>Select your intended purpose</option>
-                  <option value="1">Topline</option>
-                  <option value="2">Co-Writing</option>
-                  <option value="3">Press</option>
-                  <option value="3">Other</option>
+                  <option value="Topline">Topline</option>
+                  <option value="Co-writing">Co-Writing</option>
+                  <option value="Press">Press</option>
+                  <option value="Other">Other</option>
                 </select>
               </div>
             </div>
             <div class="row">
                <div class="col-md-8 my-3">
-                  <label for="email" name="Email" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Email Address" required>
+                  <label for="email"  class="form-label">Email</label>
+                  <input type="email" class="form-control" name="Email" id="email" placeholder="Email Address" required>
                </div>   
                <div class="col-md-4 my-3">
                  <label for="number" class="form-label">Phone Number (Optional) </label>
-                 <input type="text" class="form-control" name="Phone Number" id="phoneNumber" placeholder="+1(240)337-4756">
+                 <input type="text" class="form-control" name="Phone&nbsp;Number" id="phoneNumber" placeholder="+1(240)337-4756">
                </div>    
             </div>            
             <div class="row">

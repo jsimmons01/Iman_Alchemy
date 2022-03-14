@@ -11932,3 +11932,13 @@ p {
 #toplines {
   background-color: #f3eadf;
 }
+#success-page {
+  background-color: #f3eadf;
+}
+
+#success-footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+}
