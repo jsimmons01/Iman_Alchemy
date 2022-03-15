@@ -12025,3 +12025,12 @@ p {
   transition: all 1s linear;
   height: 100%;
 }
+
+@media (max-width: 575.98px) {
+  .navbar {
+    padding-left: 50px;
+  }
+  .navbar-toggler {
+    margin-right: 30px;
+  }
+}
