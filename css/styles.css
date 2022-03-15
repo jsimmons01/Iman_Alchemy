@@ -11923,14 +11923,13 @@ p {
 .bio-item {
   background-color: #fdddbc;
 }
-.work-with-me-link {
-  color: var(--bs-gray-600);
-}
+
 .playlist-link {
   background-color: rgba(230, 167, 86, 0.7);
 }
 #toplines {
-  background-color: #f3eadf;
+  font-size: 18px;
+  color: white;
 }
 #success-page {
   background-color: #f3eadf;
@@ -11941,4 +11940,88 @@ p {
   left: 0px;
   bottom: 0px;
   width: 100%;
+}
+@media (min-width: 768px) {
+  #toplines-footer {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+  }
+}
+.player {
+  width: 400px;
+  background-color: rgba(230, 167, 86, 0.6);
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  position: relative;
+  border-radius: 30px;
+  padding-block: 8px;
+}
+
+.control,
+#current,
+#current_two,
+#current_three,
+#current_four {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#playbtn,
+#playbtn_two,
+#playbtn_three,
+#playbtn_four {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+#playbtn:hover,
+#playbtn_two:hover,
+#playbtn_three:hover,
+#playbtn_four:hover {
+  -webkit-text-fill-color: black;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+#current,
+#current_two,
+#current_three,
+#current_four {
+  text-align: right;
+  font-size: 14px;
+}
+
+.bar {
+  --space: -2px;
+  background-color: rgba(230, 167, 86, 0.6);
+  overflow: hidden;
+  left: var(--space);
+  right: var(--space);
+  top: var(--space);
+  bottom: var(--space);
+  position: absolute;
+  border-radius: 64px;
+  z-index: -7;
+}
+
+#progress,
+#progress_two,
+#progress_three,
+#progress_four {
+  width: var(--progress, 0%);
+  background-color: black;
+  transition: all 1s linear;
+  height: 100%;
 }
